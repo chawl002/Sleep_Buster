@@ -1,62 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/">-->
+    
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
+    android:clickable="true"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.sleep_buster.TitleScreen" >
+    tools:context="com.example.sleep_buster.MainQuestionActivity" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/question1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="14dp"
-        android:text="Sleep Buster"
+        android:text="Random Question Generator here"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="@color/blue"
         android:textSize="40sp"
-        android:typeface="normal" />
+        android:layout_gravity="center_horizontal" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:text="Get home safe"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/blue"
-        android:textSize="30sp" />
-
-    <Button
-        android:id="@+id/start1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:background="@color/blue"
-        android:padding="@dimen/abc_action_bar_icon_vertical_padding_material"
-        android:text="START"
-        android:textColor="@color/black"
-        android:textSize="40sp"
-        android:onClick="startTimer" />
-     <!--android:onClick="toquestions"-->
-
-    <Button
-        android:id="@+id/end1"
+    <Button 
+        android:id="@+id/wrong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
         android:background="@color/blue"
-        android:padding="@dimen/abc_action_bar_icon_vertical_padding_material"
-        android:text="End"
+        android:padding="@dimen/abc_text_size_menu_material"
+        android:text="False"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal" />
+<!--  </LinearLayout>-->
+
+    <Button
+        android:id="@+id/correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@color/blue"
+        android:maxWidth="300dp"
+        android:minWidth="88dip"
+        android:outlineProvider="none"
+        android:padding="@dimen/abc_text_size_menu_material"
+        android:text="True"
         android:textColor="@color/black"
         android:textSize="40sp" />
 
