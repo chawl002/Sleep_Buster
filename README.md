@@ -15,4 +15,4 @@ Technologies used include:
 - Android API 20 (Services and Activities)
 - Google Text To Speech
 
-Future iterations would include voice recognition for driver responses and integration with Google maps
+Future iterations will include voice recognition for driver responses and integration with Google maps
