@@ -13,7 +13,7 @@ When the error threshold is reached, the app will play a loud alarm sound to let
 
 Technologies used include:
 - Android API 20 (Services and Activities)
-- Google Text To Speech
+- Android Text To Speech API 
 
 Features:
 App runs continuously until stopped by the User, making it suitable for longer trips
