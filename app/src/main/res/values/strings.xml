@@ -4,6 +4,7 @@
     <string name="app_name">Sleep_Buster</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-	<color name="black">#000000</color>
-	<color name="blue">#0468BF</color>
+    <string name="answers" />
+    <color name="black">#000000</color>
+    <color name="blue">#0468BF</color>
 </resources>
