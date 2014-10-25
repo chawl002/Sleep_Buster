@@ -1,7 +1,7 @@
 Sleep_Buster
 ============
 
-An Android app that checks awake-ness of drivers and keeps them awake to avoid potential dangers of drowsy driving.
+An Android app that checks alertness of drivers and keeps them awake to avoid potential dangers of drowsy driving.
 
 Studies have shown that the majority of drowsy driving accidents happen to solo drivers and that 82% of 
 the time,  the driver had no-one with whom to converse. 
@@ -10,3 +10,9 @@ The app has a timer that plays audible questions to the driver. The driver respo
 If he/she fails to respond within 15 seconds, the app will record this as an error condition. 
 
 When the error threshold is reached, the app will play a loud alarm sound to let the driver know he/she has reached the danger zone. 
+
+Technologies used include:
+- Android API 20 (Services and Activities)
+- Google Text To Speech
+
+Future iterations would include voice recognition for driver responses and integration with Google maps
