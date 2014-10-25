@@ -15,4 +15,10 @@ Technologies used include:
 - Android API 20 (Services and Activities)
 - Google Text To Speech
 
-Future iterations will include voice recognition for driver responses and integration with Google maps
+Features:
+App runs continuously until stopped by the User, making it suitable for longer trips
+Use of open source tools and technologies, so the community can participate in improvments
+
+For a sample User Story, please see the Wiki. 
+
+Future iterations will include voice recognition for driver responses and integration with Google maps. 
